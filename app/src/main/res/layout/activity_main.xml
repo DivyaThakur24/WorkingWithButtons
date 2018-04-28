@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#f9e4ba">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#25aaff"
+                android:onClick="simpleButton"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="This is a Simple Android Button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/ic_star_black_24dp"
+                android:text="Button With An Icon On The Left"
+                android:background="@color/colorAccent"
+                android:layout_gravity="center_horizontal"
+                android:onClick="leftIconButton" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:text="Button With An Icon On The Right"
+                android:background="#86c723"
+                android:drawableRight="@drawable/ic_star_black_24dp"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="rightIconButton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:background="#f0c154">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Button With A Background Image"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_back"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Button with a Border"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/border"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:text="Button With a Gradient"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/gradient"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Button With 3 Gradient Colors"
+                android:textColor="@android:color/white"
+                android:background="@drawable/center_gradient"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#f9e4ba">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Uniform Rounded Edges"
+                android:background="@drawable/rounded_edges"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Non-Uniform Rounded Edges"
+                android:textColor="@android:color/white"
+                android:background="@drawable/non_uniform"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side-Rounded Edges"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/side_rounded"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:text="Oval Edges"
+                android:background="@drawable/oval_edges"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Circular"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circular"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
